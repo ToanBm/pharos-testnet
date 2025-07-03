@@ -1,7 +1,7 @@
 # Pharos Testnet
 
-## 1. Write Your First Token ERC20
+## 1. Start Auto
 ```
-git clone https://github.com/ToanBm/pharos-devnet.git && cd pharos-devnet && chmod +x token.sh && ./token.sh
+git clone https://github.com/ToanBm/pharos-testnet.git && cd pharos-testnet && chmod +x run.sh && ./run.sh
 ```
 
