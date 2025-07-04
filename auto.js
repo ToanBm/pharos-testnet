@@ -203,7 +203,7 @@ async function selectSwapPair() {
 // ==================== MAIN FUNCTION ====================
 async function run() {
     const privateKey = await askQuestion('Enter your private key: ');
-    wallet = new ethers.Wallet(privateKey, new ethers.JsonRpcProvider('https://api.zan.top/node/v1/pharos/testnet/7bcc77622f854952af011caa28610cba'));
+    wallet = new ethers.Wallet(privateKey, new ethers.JsonRpcProvider('https://testnet.dplabs-internal.com'));
 
     while (true) {
         console.log('\nSelect Action:');
